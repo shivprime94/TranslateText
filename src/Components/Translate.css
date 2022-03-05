@@ -1,0 +1,49 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+div {
+  text-align: center;
+}
+.text-area {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20vh;
+}
+
+.App {
+  text-align: center;
+
+  height: 100vh;
+}
+
+div {
+  padding: 10px;
+}
+
+select {
+  padding: 5px;
+}
+
+textarea {
+  box-shadow: 8px 16px 16px hsl(0deg 0% 0% / 0.25);
+  border-color: #5f3bfe;
+}
+Button {
+  margin-top: 30%;
+}
+
+.translateheader {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+TextareaAutosize[type='text'] {
+  font-size: 13px;
+  font-family: monospace;
+  padding: 10px;
+}
